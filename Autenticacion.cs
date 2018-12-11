@@ -24,8 +24,6 @@ namespace Fortinet
 
             var magic = response.Substring(1142, 16);
             var Tredir = "http://google.co.in/";
-            var username = user;
-            var password = pass;
 
             var url2 = "http://192.168.201.6:1000/";
             using (var client2 = new WebClient())
